@@ -6,7 +6,8 @@ class BankAccount():
         self.balance = balance
     
     def deposit(self, amount):
-        pass
+        self.balance += amount
+        print(f"Amount Deposited: ${amount}")
 
     def withdraw(self, amount):
         pass
